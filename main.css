@@ -1,0 +1,88 @@
+*
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+
+.navbar {
+    background-color: rgb(128, 0, 38);
+
+}
+
+.navbar-brand {
+    font-size: 60px;
+    padding: 25px;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: white;
+    color: rgb(128, 0, 38) ;
+}
+
+#cabecalho .nav .nav-link, 
+ .navbar-brand,
+ .navbar-brand:hover,
+ .nav-cardapio .nav-link.active:hover  {
+    color: white;
+
+}
+
+.container h3 {
+    padding-top: 8px;
+}
+
+.navbar-toggler {
+    background-color: rgb(206, 176, 181);
+}
+
+.section-title {
+    font-family: Shrikhand, serif;
+}
+
+
+#sobre-a-loja, #produtos {
+    background-color: rgb(206, 176, 181);
+}
+
+.text-colored {
+    color:rgb(128, 0, 38);
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(128, 0, 38);
+    color: white;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: rgb(128, 0, 38);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.tab-pane button {
+    color: white;
+    background-color: rgb(128, 0, 38);
+}
+
+
+
+@media (max-width:767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    .navbar-brand {
+        font-size: 30px;
+        padding: 25px;
+    }
+    
+}

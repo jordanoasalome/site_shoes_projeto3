@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+<header class="navbar navbar-expand-lg sticky-top pt-4" id="cabecalho">
+<div class="container">
+<h1 class="navbar-brand m-0  section-title ">Shoes</h1>
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+    <span class="navbar-toggler-icon"></span>
+</button>
+<nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+    <ul class="nav nav-pills d-block d-md-flex">
+        <li class="nav-item fw-bold">
+        <a href="#sobre-a-loja"class="nav-link" >
+            Sobre a loja
+
+        </a>
+        </li>
+        <li class="nav-item fw-bold">
+        <a href="#eventos" class="nav-link">
+            Eventos
+        </a>
+        </li>
+        <li class="nav-item fw-bold">
+        <a href="#produtos"class="nav-link">
+            Produtos
+        </a>
+        </li>
+        <li class="nav-item fw-bold" >
+        <a href="#fale-conosco" class="nav-link">
+            Fale conosco
+        </a>
+        </li>
+    </ul>
+</nav>
+</div>
+</header>
+<div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+    <section id="sobre-a-loja">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img class="d-block w-100" src="./Parte1/Adidas1.webp" alt="adidas">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="d-block w-100" src="/Parte1/Nike1.webp" alt="nike">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="d-block w-100" src="./Parte1/Puma1.webp" alt="puma">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                    <img src="./Parte2/Lojachuteira2.jpg" class="d-block w-100 rounded" alt="fachada">
+                    </div>
+                    <div class="col-md-7 mt- mt-md-0">
+                        <h2 class="section-title">Sobre<span class="text-colored"> a loja</span></h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quo totam praesentium incidunt, vero illo et at impedit suscipit magnam, voluptatem exercitationem cum iste est nesciunt aliquam unde quae dolore!
+                        </p>
+                        <h3 class="section-title">Sobre<span class="text-colored"> o espaço</span></h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque natus officiis doloribus, assumenda nemo in quis consequuntur laborum tenetur exercitationem, numquam reprehenderit modi impedit ad saepe recusandae sit explicabo sint.
+                        </p>
+                        <ul>
+                            <li>CHUTEIRAS DE CAMPO</li>
+                            <li>CHUTEIRAS DE FUTSAL</li>
+                            <li>CHUTEIRAS DE SOCIETY</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="eventos" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">CAMPO <span class="text-colored">| FUTSAL |</span> SOCIETY </h2>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="./Parte 3/Campo3.jpg" alt="" class="d-block w-100 rounded md-2">
+                    <h3 class="section-title text-colored fs-4">  
+                        CHUTEIRA DE CAMPO
+                        <i class="bi bi-gitlab"></i>
+                    </h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, magnam esse! Possimus porro nulla quaerat dolorum deserunt. Fuga libero ducimus perferendis minus enim. Cum, beatae omnis modi accusantium laboriosam eligendi.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./Parte 3/Futsal3.jpg" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        CHUTEIRA DE FUTSAL
+                        <i class="bi bi-rocket-fill"></i>
+                    </h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, magnam esse! Possimus porro nulla quaerat dolorum deserunt. Fuga libero ducimus perferendis minus enim. Cum, beatae omnis modi accusantium laboriosam eligendi.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./Parte 3/Society3.webp" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        CHUTEIRA DE SOCIETY
+                        <i class="bi bi-xbox"></i>
+                    </h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, magnam esse! Possimus porro nulla quaerat dolorum deserunt. Fuga libero ducimus perferendis minus enim. Cum, beatae omnis modi accusantium laboriosam eligendi.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="produtos" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-5">
+                    Variações de <span class="text-colored">chuteiras</span></h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+            <nav class="nav nav-pills flex-column nav-cardapio">
+                <button type="button" data-bs-toggle="tab" data-bs-target="#revistas" class="fw-bold text-start nav-link text-colored active">Adidas</button>
+                <button type="button" data-bs-toggle="tab" data-bs-target="#camisetas" class="fw-bold text-start nav-link text-colored">Nike</button>
+                <button type="button" data-bs-toggle="tab" data-bs-target="#estatuas" class="fw-bold text-start nav-link text-colored">Puma</button>
+                
+            </nav>
+                </aside>
+        <div class="col-md-10">
+        <div class="tab-content">
+        <div class="tab-pane active" id="revistas">
+        <div class="row">
+        <div class="col-md-3">
+        <img class="d-block w-50" src="./Parte1/Adidas1.webp" alt="Adidas 01">
+        <h5 class="text-colored fw-bold mt-2">Adidas 01</h5>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+        </p>
+        <button type="submit" class="btn fw-bold">COMPRAR</button>
+
+        </div>
+            <div class="col-md-3">
+                <img class="d-block w-50" src="./Parte1/Adidas1.webp" alt="Adidas 02">
+                <h5 class="text-colored fw-bold mt-2">Adidas 02</h5>
+            <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+        </p>
+        <button type="submit" class="btn fw-bold">COMPRAR</button>
+
+        </div>
+        <div class="col-md-3">
+        <img class="d-block w-50" src="./Parte1/Adidas1.webp" alt="Adidas 03">
+        <h5 class="text-colored fw-bold mt-2">Adidas 03</h5>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+        </p>
+        <button type="submit" class="btn fw-bold">COMPRAR</button>
+
+        </div>
+        <div class="col-md-3">
+        <img class="d-block w-50" src="./Parte1/Adidas1.webp" alt="Adidas 04">
+            <h5 class="text-colored fw-bold mt-2">Adidas 04</h5>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+        </p>
+        <button type="submit" class="btn fw-bold">COMPRAR</button>
+
+        </div>
+        <div class="col-md-3">
+        <img class="d-block w-50" src="./Parte1/Adidas1.webp" alt="Adidas 05">
+        <h5 class="text-colored fw-bold mt-2">Adidas 05</h5>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+            </p>
+            <button type="submit" class="btn fw-bold">COMPRAR</button>
+
+        </div>
+            <div class="col-md-3">
+            <img class="d-block w-50" src="./Parte1/Adidas1.webp" alt="Adidas 06">
+            <h5 class="text-colored fw-bold mt-2">Adidas 06</h5>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+            </p>
+            <button type="submit" class="btn fw-bold">COMPRAR</button>
+
+        </div>
+        </div>
+        </div>
+        <div class="tab-pane" id="camisetas">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="d-block w-100" src="./Parte1/Nike1.webp" alt="Nike 01">
+                <h5 class="text-colored fw-bold mt-2">Nike 01</h5>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+            </p>
+            <button type="submit" class="btn fw-bold">COMPRAR</button>
+
+            </div>
+            <div class="col-md-3">
+                <img class="d-block w-100" src="./Parte1/Nike1.webp" alt="Nike 02">
+                <h5 class="text-colored fw-bold mt-2">Nike 02</h5>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+            </p>
+            <button type="submit" class="btn fw-bold">COMPRAR</button>
+
+            </div>
+            <div class="col-md-3">
+                <img class="d-block w-100" src="./Parte1/Nike1.webp" alt="Nike 03">
+                <h5 class="text-colored fw-bold mt-2">Nike 03</h5>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+            </p>
+            <button type="submit" class="btn fw-bold">COMPRAR</button>
+
+            </div>
+            <div class="col-md-3">
+                <img class="d-block w-100" src="./Parte1/Nike1.webp" alt="Nike 04">
+                <h5 class="text-colored fw-bold mt-2">Nike 04</h5>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+            </p>
+            <button type="submit" class="btn fw-bold">COMPRAR</button>
+
+            </div>
+            </div>
+            </div>
+            <div class="tab-pane" id="estatuas">
+                <div class="row">
+                    <div class="col-md-3">
+                    <img class="d-block w-100" src="./Parte1/Puma1.webp" alt="Puma 01">
+                    <h5 class="text-colored fw-bold mt-2">Puma 01</h5>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                </p>
+                <button type="submit" class="btn fw-bold">COMPRAR</button>
+
+                </div>
+                <div class="col-md-3">
+                    <img class="d-block w-100" src="./Parte1/Puma1.webp" alt="Puma 02">
+                    <h5 class="text-colored fw-bold mt-2">Puma 02</h5>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                </p>
+                <button type="submit" class="btn fw-bold">COMPRAR</button>
+
+                </div>
+                <div class="col-md-3">
+                    <img class="d-block w-100" src="./Parte1/Puma1.webp" alt="Puma 03">
+                    <h5 class="text-colored fw-bold mt-2">Puma 03</h5>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                </p>
+                <button type="submit" class="btn fw-bold">COMPRAR</button>
+
+                </div>
+                <div class="col-md-3">
+                    <img class="d-block w-100" src="./Parte1/Puma1.webp" alt="Puma 42">
+                    <h5 class="text-colored fw-bold mt-2">Puma 04</h5>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+                </p>
+                <button type="submit" class="btn fw-bold">COMPRAR</button>
+
+                </div>
+
+        </div>
+    </div>
+
+</div>
+</div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                        <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                        <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opicional)</label>
+                        <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Seu mensagem</label>
+                        <textarea class="form-control" id="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        
+                    </div>
+                    <div class="row mt-4"> <h3  class="section-title fs-4 text-colored">
+                        Redes Socias
+                    </h3>
+                    <ul class="social-links">
+                        <li class="fs-5">
+                            <a href="#">
+                                <i class="bi bi-instagram text-colored"></i>
+                            </a>
+                        </li>
+                        <li class="fs-5">
+                            <a href="#">
+                                <i class="bi bi-facebook text-colored"></i>
+                            </a>
+                        </li>
+                        <li class="fs-5">
+                            <a href="#">
+                                <i class="bi bi-twitter-x text-colored"></i>
+                            </a>
+                        </li>
+                        <li class="fs-5">
+                            <a href="#">
+                                <i class="bi bi-whatsapp text-colored"></i>
+                            </a>
+                        </li>
+                    </ul>
+                        <h3  class="section-title fs-4 text-colored">
+                            Endereço
+                            <i class="bi bi-cursor-fill"></i>
+
+                        </h3>
+                        <p>
+                        Rua teste n° 88, Bairo Bootstrap - Minas Gerais - MG
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
